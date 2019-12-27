@@ -96,9 +96,7 @@ const Game = (props) => {
                 <img src={props.game.background_image} alt={props.game.name}/>
                 <div>
                     <p><span role="img" aria-label="Star emoji">⭐️</span>{props.game.rating}</p>
-                    <p><span role="img" aria-label="Gamepad emoji">🎮</span> {props.game.genres && props.game.genres.map(genre => {
-                        return `${genre.name} `;
-                    })}</p>
+                    <p><span role="img" aria-label="Gamepad emoji">🎮</span>{props.game.genres && props.game.genres[0].name}</p>
                 </div>
                 <div>
                     <p><span role="img" aria-label="Trophy emoji">🏆</span> {props.game.achievements_count}</p>

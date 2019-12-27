@@ -37,6 +37,10 @@ div {
   padding: 0.5rem 1rem;
   display: flex;
   justify-content: space-between;
+
+  span {
+    font-size: 1.6rem;
+  }
 }
 `
 
