@@ -30,6 +30,9 @@ form {
         background-color: ${({theme}) => theme.lightest};
         transform: translateX(-12px);
         transition: transform 0.2s ease-in-out;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
 
         @media (max-width: ${({ theme }) => theme.mobile}) {
             font-size: 1.3rem;
